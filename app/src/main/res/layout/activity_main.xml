@@ -1,31 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-=======
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> 55b20de78ea2d8306d7add8fe83703d01e51468e
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="project.nitpicar.MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
-=======
+    tools:context="project.nitpicar.MainActivity"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:background="#263234"
     android:weightSum="2"
-    tools:context="project.nitpicar.MainActivity">
+   >
 
     <LinearLayout
         android:gravity="center"
@@ -111,7 +94,7 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_gravity="right"
-                    android:src="@android:mipmap/sym_def_app_icon" />
+                    android:src="@drawable/logo" />
             </LinearLayout>
 
             <ImageView
@@ -120,7 +103,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
-                android:src="@android:mipmap/sym_def_app_icon" />
+                android:src="@drawable/logo" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -237,4 +220,3 @@
 
 
 </LinearLayout>
->>>>>>> 55b20de78ea2d8306d7add8fe83703d01e51468e

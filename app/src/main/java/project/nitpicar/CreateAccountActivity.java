@@ -16,7 +16,7 @@ import android.widget.Toast;
 //sign up Nitpicar
 public class CreateAccountActivity extends AppCompatActivity {
 
-    private EditText etEmail, etPassword, etName, etAge, etGroup, etArea, etVehiNum, etVehiType;
+    private EditText etEmail, etPassword,  etName, etVehiNum, etVehiType;
     private Button btnDone;
 
     @Override
@@ -27,9 +27,6 @@ public class CreateAccountActivity extends AppCompatActivity {
         etEmail = (EditText) findViewById(R.id.edit_email_crAccount);
         etPassword = (EditText) findViewById(R.id.edit_password_crAccount);
         etName = (EditText) findViewById(R.id.edit_name);
-        etAge = (EditText) findViewById(R.id.edit_age);
-        etGroup = (EditText) findViewById(R.id.edit_group);
-        etArea = (EditText) findViewById(R.id.edit_area);
         etVehiNum = (EditText) findViewById(R.id.edit_vehicle_num);
         etVehiType = (EditText) findViewById(R.id.edit_vehicle_type);
         btnDone = (Button) findViewById(R.id.btn_regisToNit);
@@ -105,73 +102,7 @@ public class CreateAccountActivity extends AppCompatActivity {
             }
         });
 
-        etAge.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
-            }
-
-            @Override
-            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                String age = etAge.getText().toString();
-                if (age.isEmpty()) {
-                    etAge.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0);
-                }
-                else {
-                    etAge.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_tick, 0);
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
-
-            }
-        });
-
-        etGroup.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                String group = etGroup.getText().toString();
-                if (group.isEmpty()) {
-                    etGroup.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0);
-                }
-                else {
-                    etGroup.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_tick, 0);
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
-
-            }
-        });
-        etArea.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                String area = etArea.getText().toString();
-                if (area.isEmpty()) {
-                    etArea.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0);
-                }
-                else {
-                    etArea.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_tick, 0);
-                }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
-
-            }
-        });
         etVehiNum.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -239,21 +170,6 @@ public class CreateAccountActivity extends AppCompatActivity {
                 if (etName.getText().toString().isEmpty()) {
                     Toast.makeText(CreateAccountActivity.this, R.string.name_missing, Toast.LENGTH_SHORT).show();
                     etName.requestFocus();
-                    return;
-                }
-                if (etAge.getText().toString().isEmpty()) {
-                    Toast.makeText(CreateAccountActivity.this, R.string.age_missing, Toast.LENGTH_SHORT).show();
-                    etAge.requestFocus();
-                    return;
-                }
-                if (etArea.getText().toString().isEmpty()) {
-                    Toast.makeText(CreateAccountActivity.this, R.string.area_missing, Toast.LENGTH_SHORT).show();
-                    etArea.requestFocus();
-                    return;
-                }
-                if (etGroup.getText().toString().isEmpty()) {
-                    Toast.makeText(CreateAccountActivity.this, R.string.group_missing, Toast.LENGTH_SHORT).show();
-                    etGroup.requestFocus();
                     return;
                 }
                 if (etVehiNum.getText().toString().isEmpty()) {
