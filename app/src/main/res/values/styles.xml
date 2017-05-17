@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+=======
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+>>>>>>> 55b20de78ea2d8306d7add8fe83703d01e51468e
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+<<<<<<< HEAD
 
         <item name="android:textSize">15sp</item>
         <item name="android:colorBackground">@color/colorBackground</item>
@@ -20,6 +28,8 @@
         <item name="windowActionBar">false</item>
         <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
         <item name="android:windowActivityTransitions" tools:targetApi="lollipop">true</item>
+=======
+>>>>>>> 55b20de78ea2d8306d7add8fe83703d01e51468e
     </style>
 
 </resources>

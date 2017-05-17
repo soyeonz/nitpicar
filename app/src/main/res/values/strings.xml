@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Nitpicar</string>
+<<<<<<< HEAD
     <string name="sign_in_with_email">Sign In With Email</string>
     <string name="create_account">Create Account</string>
     <string name="email">Email</string>
@@ -25,4 +26,6 @@
     <string name="area_missing">Please write area</string>
     <string name="vehicle_num_missing">Please write vehicle number</string>
     <string name="vehicle_type_missing">Please write vehicle type</string>
+=======
+>>>>>>> 55b20de78ea2d8306d7add8fe83703d01e51468e
 </resources>

@@ -2,8 +2,11 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+<<<<<<< HEAD
     <dimen name="register_btn_padding">15dp</dimen>
     <dimen name="login_edittext_padding">15dp</dimen>
     <dimen name="settings_button">80dp</dimen>
     <dimen name="padding_dialog_button">15dp</dimen>
+=======
+>>>>>>> 55b20de78ea2d8306d7add8fe83703d01e51468e
 </resources>

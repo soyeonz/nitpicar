@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#3498db</color>
@@ -16,4 +17,9 @@
     <color name="progressColorTwo">#CDCBA6</color>
     <color name="progressColorThree">#008891</color>
     <color name="progressColorFour">#00587A</color>
+=======
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+>>>>>>> 55b20de78ea2d8306d7add8fe83703d01e51468e
 </resources>
