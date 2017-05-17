@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_tick.png",
+        "source": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_tick.png"
+    },
+    {
+        "merged": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\logo.png",
+        "source": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_back.png",
+        "source": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_back.png"
+    }
+]

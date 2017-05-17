@@ -1,0 +1,7 @@
+#Thu May 18 05:07:21 KST 2017
+base.0=D\:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e7f47e8314702042d3c0180f8282d711ae411496
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8740b52cfbf1780af423c915fdc9e5039f16c3de\\classes.dex
+base.1=D\:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8740b52cfbf1780af423c915fdc9e5039f16c3de
+file.0=D\:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e7f47e8314702042d3c0180f8282d711ae411496\\classes.dex

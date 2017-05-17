@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\a32e2bd66141a301877da040d5b0d60f3cfb24ba\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\a32e2bd66141a301877da040d5b0d60f3cfb24ba\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\a32e2bd66141a301877da040d5b0d60f3cfb24ba\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\a32e2bd66141a301877da040d5b0d60f3cfb24ba\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\a32e2bd66141a301877da040d5b0d60f3cfb24ba\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\NITPICAR\\nitpicar\\android\\Nitpicar\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\a32e2bd66141a301877da040d5b0d60f3cfb24ba\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    }
+]
