@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Nitpicar</string>
+    <string name="sign_in_with_email">Sign In With Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="group">Group(ex: Dongduk Women\'s University)</string>
+    <string name="area">Area</string>
+    <string name="vehicle_number">Vehicle Number</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register_to_nitpicar">Register To Nitpicar</string>
+
+    <string name="network_error">Error connecting, Check your internet connection</string>
+    <string name="unknown_error">There was an error! Please try again</string>
+    <string name="broadcast_request_member">project.nitpicar</string>
+
+    <string name="email_missing">Please write email</string>
+    <string name="password_missing">Please write password</string>
+    <string name="name_missing">Please write name</string>
+    <string name="age_missing">Please write age</string>
+    <string name="group_missing">Please write group</string>
+    <string name="area_missing">Please write area</string>
+    <string name="vehicle_num_missing">Please write vehicle number</string>
+    <string name="vehicle_type_missing">Please write vehicle type</string>
+</resources>
